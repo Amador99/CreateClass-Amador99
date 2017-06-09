@@ -11,7 +11,8 @@ namespace CreateClass
     {
         static void Main(string[] args)
         {
-            Person abel = new Person("Ábel Váradi", new DateTime(1984,03,28), Genders.male);
+            Employee abel = new Employee("Ábel Váradi", new DateTime(1984,03,28), Genders.male, 120000, "developer");
+            abel.HotelRoom = new Room(114);
             Console.WriteLine(abel);
         }
     }
