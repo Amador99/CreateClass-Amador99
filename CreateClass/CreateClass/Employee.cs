@@ -26,7 +26,8 @@ namespace CreateClass
         /*public object Clone()
         {
             return this.MemberwiseClone();
-        }*/
+        }
+        */
 
         public object Clone()
         {
