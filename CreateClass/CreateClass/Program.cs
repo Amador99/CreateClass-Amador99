@@ -11,9 +11,12 @@ namespace CreateClass
     {
         static void Main(string[] args)
         {
-            Employee abel = new Employee("Ábel Váradi", new DateTime(1984,03,28), Genders.male, 120000, "developer");
-            abel.HotelRoom = new Room(114);
-            Console.WriteLine(abel);
+            Employee Abel = new Employee("Ábel Váradi", new DateTime(1984,03,28), Genders.male, 120000, "developer");
+            Abel.Room = new Room(111);
+            Employee Abel2 = (Employee)Abel.Clone();
+            Abel2.Room.Number = 112;
+            Console.WriteLine(Abel);
+            Console.WriteLine(Abel2);
         }
     }
 }
