@@ -1,1 +1,1 @@
-# First and second assignment of the first C# SI week.
+# 1st, 2nd and 3rd assignment of the first C# SI week.
