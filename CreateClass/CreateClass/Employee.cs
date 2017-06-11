@@ -20,7 +20,7 @@ namespace CreateClass
 
         public override string ToString()
         {
-            return base.ToString() + " " + this.Salary + " " + this.Profession + " " + this.Room.Number;
+            return base.ToString() + " " + string.Format("Salary: {0}, Profession: {1}, Room: {2} \n", this.Salary, this.Profession, this.Room.Number);
         }
 
         /*public object Clone()

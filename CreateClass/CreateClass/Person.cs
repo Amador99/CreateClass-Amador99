@@ -23,8 +23,8 @@ namespace CreateClass
 
 
         public override string ToString()
-        {
-            return this.Name + " " + this.BirthDate + " " + this.gender;
+        { 
+            return string.Format("Name: {0}, Birth: {1}, Gender: {2}", this.Name, this.BirthDate, this.gender);
         }
     }
 }
